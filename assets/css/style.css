@@ -1,0 +1,51 @@
+body {
+	background-image: url(../images/background.jpg);
+}
+
+label {
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+input {
+	font-size: 24px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.topicButtons,
+#submitButton {
+	background-color: cornflowerBlue;
+	color: yellow;
+	border-radius: 12px;
+	font-size: 24px;
+	margin: 10px;
+	width: 120px;
+}
+
+#submitButton {
+	margin-left: 225px;
+	margin-bottom: 50px;
+}
+
+.topicButtons:hover,
+.topicButtons:focus,
+#submitButton:hover {
+	cursor: pointer;
+	background-color: MidnightBlue;
+}
+
+.topicImages {
+	margin: 10px;
+	display: inline-block;
+}
+
+.topicImages:hover {
+	cursor: pointer;
+}
+
+.topicRatings {
+	margin: 10px;
+}
